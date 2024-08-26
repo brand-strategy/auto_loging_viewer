@@ -33,3 +33,4 @@ jobs:
         author_email: 'your.email@example.com'
         message: 'Update change log'
         add: 'change_log.html'  # 커밋할 파일을 명시
+        token: ${{ secrets.PAT_TOKEN }}  # Personal Access Token 사용
